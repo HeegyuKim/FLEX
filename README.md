@@ -1,6 +1,6 @@
 # FLEX: False-Less EXecution for Reliable Text-to-SQL Evaluation
+![flow](img/flow-v06.png)
 Paper: https://arxiv.org/pdf/2409.19014
-
 ## Introduction
 
 FLEX (False-Less EXecution) is a novel approach to evaluating text-to-SQL systems, designed to overcome the limitations of existing metrics such as Execution Accuracy (EX). By leveraging Large Language Models (LLMs), FLEX emulates expert-level evaluation of SQL queries, providing a more accurate and nuanced assessment of text-to-SQL model performance.
