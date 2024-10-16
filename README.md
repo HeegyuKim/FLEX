@@ -1,4 +1,4 @@
-# FLEX: False-Less EXecution for Text-to-SQL Evaluation
+# FLEX: False-Less EXecution for Reliable Text-to-SQL Evaluation
 Paper: https://arxiv.org/pdf/2409.19014
 
 ## Introduction
