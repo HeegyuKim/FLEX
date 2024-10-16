@@ -1,3 +1,12 @@
+bird-download/
+spider/database
+bird_mini_dev/llm/mini_dev_data/minidev/
+bird_dev/experiment_data/
+
+.vscode/
+data/
+*.zip
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
