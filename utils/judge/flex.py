@@ -10,6 +10,9 @@ class FLEX_NoHint(OpenAIJudge):
 
     
 JUDGE_PROMPT_LOOSE_NORESULT = """
+**Schema**
+{schema}
+
 **Question**
 {question}
 
@@ -26,6 +29,9 @@ class FLEX_NoResult(OpenAIJudge):
         return JUDGE_PROMPT_STRICT_NORESULT if strict else JUDGE_PROMPT_LOOSE_NORESULT
 
 JUDGE_PROMPT_LOOSE_NOQUESTION = """
+**Schema**
+{schema}
+
 **Question**
 {question}
 
@@ -43,6 +49,9 @@ JUDGE_PROMPT_LOOSE_NOQUESTION = """
 """.strip()
 
 JUDGE_PROMPT_STRICT_NOQUESTION = """
+**Schema**
+{schema}
+
 **Question**
 {question}
 
@@ -60,6 +69,9 @@ class FLEX_NoQuestion(OpenAIJudge):
 
 
 JUDGE_PROMPT_LOOSE_NOGT = """
+**Schema**
+{schema}
+
 **Question**
 {question}
 
@@ -71,6 +83,9 @@ JUDGE_PROMPT_LOOSE_NOGT = """
 """.strip()
 
 JUDGE_PROMPT_STRICT_NOGT = """
+**Schema**
+{schema}
+
 **Question**
 {question}
 
