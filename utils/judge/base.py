@@ -160,6 +160,9 @@ DB_HINTS = """Schema Description:
 """
 
 JUDGE_PROMPT_LOOSE = """
+**Schema**
+{schema}
+
 **Question**
 {question}
 
@@ -177,6 +180,9 @@ JUDGE_PROMPT_LOOSE = """
 """.strip()
 
 JUDGE_PROMPT_STRICT = """
+**Schema**
+{schema}
+
 **Question**
 {question}
 
@@ -191,6 +197,9 @@ JUDGE_PROMPT_STRICT = """
 """.strip()
 
 JUDGE_CATEGORIZATION = """
+**Schema**
+{schema}
+
 **Question**
 {question}
 
@@ -205,6 +214,9 @@ JUDGE_CATEGORIZATION = """
 """.strip()
 
 JUDGE_PROMPT_STRICT_NORESULT = """
+**Schema**
+{schema}
+
 **Question**
 {question}
 
